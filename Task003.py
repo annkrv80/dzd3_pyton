@@ -7,8 +7,6 @@ def clear(): return os.system('cls')
 
 
 clear()
-
-
 list = [7.3, 8.2, 1.01, 5, 6.4]
 list2 = []
 for i in range(len(list)):
