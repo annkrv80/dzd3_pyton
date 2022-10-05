@@ -2,7 +2,9 @@
 #Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 import os
 from random import randint
-clear = lambda: os.system('cls')
+def clear(): return os.system('cls')
+
+
 clear()
 
 list = [randint(-10, 10) for i in range(10)]
